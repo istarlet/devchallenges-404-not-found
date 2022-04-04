@@ -1,36 +1,61 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
-body {
-  font-family: "Poppins", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+
+
+/* General Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+
+  text-decoration: none;
+  list-style: none;
 }
 
-ul {
-  padding-left: 24px;
-}
-
-li {
-  margin-bottom: 8px;
-}
-
-.welcome {
-  max-width: 800px;
+.container {
+  width: min(1200px, calc(65% + 100px));
   margin: 0 auto;
 }
 
-.welcome-text {
-  margin-top: 30vh;
-  font-weight: 500;
+img {
+  max-width: 100%;
 }
 
-.welcome-text p {
-  font-size: 1rem;
-  font-weight: 400;
+/* General Styles End */
+
+
+/* Font Styles */
+
+.inconsolata {
+  font-family: 'Inconsolata', monospace;
 }
 
-.welcome-text h1 {
-  font-size: 1.5rem;
+.space-mono {
+  font-family: 'Space Mono', monospace;
 }
 
-.welcome-text a {
-  color: #f7542e;
+.fs-14 {
+  font-size: 14px;
 }
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-48 {
+  font-size: 48px;
+}
+
+.fs-64 {
+  font-size: 64px;
+}
+
+/* Font Styles End *?
